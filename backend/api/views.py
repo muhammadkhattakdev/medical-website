@@ -589,7 +589,6 @@ def get_all_blogs(request, page):
     return Response({'message':'Success', 'count':count, 'blogs':blogs}, status=status.HTTP_200_OK)
 
 
-
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def approve_blog(request):

@@ -100,6 +100,10 @@
   font-family: 'Roboto';
   src: url(../fonts/Roboto-Regular.ttf);
 }
+@font-face {
+  font-family: 'LineAwesome';
+  src: url(../fonts/line-awesome.ttf);
+}
 @-webkit-keyframes MOVE-BG {
     from {
       -webkit-transform: translateX(0);
@@ -233,6 +237,10 @@
     position: relative;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+  }
+
+  * {
+    font-family: 'Roboto';
   }
   
   /*---------------- fonts ----------------*/
@@ -6224,4 +6232,10 @@ nav {
   width: fit-content;
   font-size: 19px;
   align-items: center;
+}
+
+.pressure-sore-result {
+  padding: 1rem;
+  border-radius: 15px;
+  border: 1.3px solid black;
 }

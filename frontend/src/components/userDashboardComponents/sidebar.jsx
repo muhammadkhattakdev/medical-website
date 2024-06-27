@@ -25,11 +25,11 @@ export default function UserSidebar() {
                     </li>
                     <li>
                         <Link to='/dashboard/form1/' className="dashboard-link">
-                        Form 1
+                        Holistic Nursing Assessment
                         </Link>
                     </li>
                     <li>
-                        <Link to='/dashboard/form2/' className="dashboard-link">
+                        <Link to='/dashboard/form2/' className="dashboard-link text-center">
                             Form 2
                         </Link>
                     </li>
