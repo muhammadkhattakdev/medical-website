@@ -24,35 +24,11 @@ export default function UserSidebar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/dashboard/form1/' className="dashboard-link">
-                        Holistic Nursing Assessment
-                        </Link>
+                        <Link to='/' className="dashboard-link">
+                            All Forms
+                        </Link>                                                
                     </li>
-                    <li>
-                        <Link to='/dashboard/form2/' className="dashboard-link text-center">
-                            Form 2
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/dashboard/form3/' className="dashboard-link">
-                            Form 3
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/dashboard/form4/' className="dashboard-link">
-                            Form 4
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/dashboard/form5/' className="dashboard-link">
-                            Form 5
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/dashboard/form6/' className="dashboard-link">
-                            Form 6
-                        </Link>
-                    </li>
+
                     <li>
                         <Link to='/dashboard/blogs/' className="dashboard-link">
                         <FontAwesomeIcon icon={faPenNib} />    MY BLOGS
